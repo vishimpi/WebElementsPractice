@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-08T12:31:56 IST" name="Suite" finished-at="2024-05-08T12:33:01 IST" duration-ms="65338">
+    <groups>
+    </groups>
+    <test started-at="2024-05-08T12:31:56 IST" name="Test on Chrome" finished-at="2024-05-08T12:32:59 IST" duration-ms="62690">
+      <class name="webElements.SelectAutosuggest">
+        <test-method signature="scenario1(java.lang.String)[pri:0, instance:webElements.SelectAutosuggest@48ae9b55]" started-at="2024-05-08T12:31:56 IST" name="scenario1" finished-at="2024-05-08T12:32:59 IST" duration-ms="62620" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario1 -->
+      </class> <!-- webElements.SelectAutosuggest -->
+    </test> <!-- Test on Chrome -->
+    <test started-at="2024-05-08T12:31:56 IST" name="Test on Firefox" finished-at="2024-05-08T12:33:01 IST" duration-ms="65338">
+      <class name="webElements.SelectAutosuggest">
+        <test-method signature="scenario1(java.lang.String)[pri:0, instance:webElements.SelectAutosuggest@4d9e68d0]" started-at="2024-05-08T12:31:56 IST" name="scenario1" finished-at="2024-05-08T12:33:01 IST" duration-ms="65276" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario1 -->
+      </class> <!-- webElements.SelectAutosuggest -->
+    </test> <!-- Test on Firefox -->
+  </suite> <!-- Suite -->
+</testng-results>
